@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#main {
+  margin-top: 10em;
+  width: 80vw;
+  min-height: 80vh;
+  margin: auto;
+  background-color: #d0d6ee;
+  border: 2px solid black;
+  border-radius: 10px; }
+
+p {
+  font-size: 18px; }
+
+#userInput {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+#description {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+#options, #description, #number {
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 2px 2px #888;
+  text-align: center; }
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; }
+
+#addBtn, #clearBtn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 3px; }
+
+#addBtn {
+  margin-right: 10px; }
+
+#results {
+  width: 60vw;
+  min-height: 50vh;
+  background-image: url("blue.jpg");
+  box-shadow: 4px 3px 8px 1px #070731;
+  -webkit-box-shadow: 4px 3px 8px 1px #070731;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px; }
+
+#total {
+  margin-top: 20px;
+  text-align: center;
+  color: white; }
+
+#sum {
+  margin-bottom: 20px; }
+
+#list_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px; }
+
+.expense, .income {
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px; }
+
+.expense h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-decoration: underline; }
+
+.income h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-decoration: underline; }
+
+@media only screen and (max-width: 680px) {
+  #list_section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .expense {
+    margin-bottom: 30px; } }
+
+@media only screen and (max-width: 518px) {
+  #userInput {
+    flex-direction: column; }
+  #options, #description {
+    margin-bottom: 10px; } }
+
+@media only screen and (max-width: 367px) {
+  .expense, .income {
+    width: 150px; }
+  h3 {
+    font-size: 15px; }
+  p {
+    font-size: 15px;
+    overflow-wrap: break-word; }
+  h2 {
+    font-size: 18px; } }

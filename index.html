@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppgift 2</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="Javascript.js" defer></script> 
+</head>
+<body>
+    <main id = "main">      <!--all the content will be in this id-->
+        <div id = "userInput">     <!--input area -->
+           
+           
+            <select id = "options">  <!--selects option "+" or "-"-->
+                <option value = "+"> + </option>  <!-- "+ option will be selected"-->
+                <option value = "-"> - </option>    <!-- "- option will be selected" -->
+            </select> 
+
+            <input type = "text" id = "description" onfocus="this.value=''" value= "Beskrivning">  <!-- text area for the description, value will disappear when we click on the box-->
+            <input type = "text" id = "number"  onfocus = "this.value=''"  value = "Värde" >  <!--text area for the price, value will disappear when we click on the box--> 
+
+        </div>
+         <!--end of input area-->
+
+         <!--button's section-->
+        <div id = "buttons">
+            <button id = "addBtn">Lägg Till</button> <!--add button-->
+            <button id = "clearBtn">Klar</button> <!--button to clear all data-->
+        </div>
+        
+         <div id= "results">  <!--total value and lists will be displayed here-->
+         <div id = "total">   
+            <h2> TOTALT </h2>
+            <div id= "sum"></div>   <!--total value will be displayed here-->
+            
+        </div>
+
+        <div id = "list_section">  <!--area for both lists-->
+      
+            <div class = "expense">  <!--list for expenses-->
+                <h3> UTGIFTER </h3>
+            
+
+            </div>
+
+            <div class = "income">  <!--list for income-->
+                <h3> INKOMSTER </h3>
+    
+            </div>
+
+        </div>
+        </div>
+
+    </main> 
+    
+</body>
+</html>

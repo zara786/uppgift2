@@ -1,0 +1,16 @@
+#buttons {
+    display: flex;     // to make more responsive
+    align-items: center;
+    justify-content: center;  // buttons to the center of the page
+    margin-top: 20px;   // space between the input fields and the buttons
+}
+#addBtn, #clearBtn {  // styling will be done to both the buttons
+    background-color: $btn; //buttons will be black colored
+    color: white; //text will be white;
+    font-weight: bold;  //text will be bold
+    padding: 3px;  // padding around the text
+
+}
+#addBtn {
+    margin-right: 10px;  //space between the two buttons
+}

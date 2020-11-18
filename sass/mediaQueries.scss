@@ -1,0 +1,49 @@
+@media only screen and (max-width: 680px) {
+
+    #list_section {
+        flex-direction: column; // will display the lists vertically
+        justify-content: center;
+        align-items: center;  //to move the lists to the center
+        
+    }
+
+    .expense {
+        margin-bottom: 30px;  //add margin between both the lists
+    }
+
+}
+
+@media only screen and (max-width: 518px) {
+
+    #userInput {
+        flex-direction: column;  // the input areas will be displayed vertically
+    }
+
+    #options, #description {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 367px) {
+
+    .expense, .income {
+          width: 150px; //reduced the lists size
+    }
+
+    h3 {
+          font-size: 15px;  //smaller headings
+    }
+
+    p {
+          font-size: 15px;   //smaller paragraph text
+          overflow-wrap: break-word;  //text will wrap in the container
+    }
+
+    h2 {
+          font-size: 18px;   //smaller "totalt heading"
+    }
+
+
+
+}

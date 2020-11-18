@@ -1,0 +1,7 @@
+//all the scss files have been imported here
+@import "./variables.scss"; //contains colors for all elements & parts of the page
+@import "./global.scss";  // the file with general settings of page
+@import "./userInput.scss"; // the input fields at the top
+@import "./buttons.scss"; //the add and remove buttons
+@import "./lists.scss" ; // the lists and total part at the bottom
+@import "./mediaQueries.scss"; // responsive part

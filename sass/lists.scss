@@ -1,0 +1,56 @@
+#results {   //the entire part of "total value" and the two lists
+
+    width: 60vw;   //set the width of the bottom container
+    min-height: 50vh;  //minimum height should be half the screen
+    background-image: url("blue.jpg");  //the downloaded background will be displayed
+    box-shadow: 4px 3px 8px 1px rgb(7, 7, 49);  // added shadow effect 
+  	-webkit-box-shadow: 4px 3px 8px 1px rgb(7, 7, 49);
+    margin: auto;  // move to the center
+    overflow: hidden; // added this so that the margin-top in #total works
+    margin-top: 30px;  //added space above
+    margin-bottom: 30px;  //added space below
+    border-radius: 10px;  //rounded borders
+
+}
+
+#total {
+       
+    margin-top: 20px; //added space at the top
+    text-align: center;  //moved the text to the center
+    color: white;  //text color
+  
+}
+#sum {    //price will be displayed here
+    margin-bottom: 20px;   //distance between the price and lists
+}
+
+#list_section {   //entire area where lists will be displayed
+    
+    display: flex;  //added flex to make it responsive
+    flex-wrap: wrap;   //lists will be displayed vertically when screen shrinks
+    justify-content: space-around;    // moved the lists to the center
+    margin-bottom: 30px;
+
+}
+
+.expense, .income {
+    background-color: white; //set the white background color
+    width:200px;
+    text-align: center;  //moved the text to the center
+    border-radius: 10px;  //rounded corners
+}
+
+.expense h3 {
+    margin-top: 10px;   //gap from top border
+    margin-bottom: 15px;  //space below the heading
+    text-decoration: underline;  //underlined heading
+}
+
+.income h3 {
+    margin-top: 10px;   //gap from top
+    margin-bottom: 15px;  //space below the heading
+    text-decoration: underline;
+}
+ 
+
+

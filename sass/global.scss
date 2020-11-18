@@ -1,0 +1,20 @@
+// the main container that holds all the elements
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    margin-top: 10em;
+    width: 80vw;  //used vw to make it more responsive
+    min-height: 80vh;   
+    margin: auto;  //moved the container to the center
+    background-color: $background;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+p {
+    font-size: 18px; //font size of all "p"
+    
+}

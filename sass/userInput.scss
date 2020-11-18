@@ -1,0 +1,19 @@
+#userInput {
+    margin-top: 30px;
+    display: flex;   //flex 
+    align-items: center;
+    justify-content: center;  //moved the input fields to the center of the page
+    flex-wrap: wrap;  //input fileds will wrap as the screen shrinks
+
+}
+#description {
+    margin-left: 10px;  //created space after the option input
+    margin-right: 10px;  //created space between the 2 input fields
+    
+}
+#options, #description, #number {
+    padding:5px; //added some padding to all input fields to make them slightly bigger
+    border-radius: 10px;  //for curved edges
+    box-shadow:inset 0 0 2px 2px #888;   //added some shadow to the fields
+    text-align: center;
+}
